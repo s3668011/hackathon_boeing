@@ -1,0 +1,504 @@
+/* External CSS style file */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background: #ffffff;
+  margin: 0px;
+}
+
+/* Header (div) formatting */
+.decoBorder {
+  padding: 6px;
+  background-color: #fe7f2d;
+}
+
+/* CSS Layout from W3Schools: https://www.w3schools.com/css/css_templates.asp */
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  background-color: #233d4d;
+  height: 67px;
+  z-index: 9;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  border-radius: 7px;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #fe7f2d;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  color: white;
+}
+
+a.customAbout {
+  margin-right: 70px;
+}
+
+.active {
+  background-color: #fe7f2d;
+}
+
+.image {
+  background-color: black;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 80%;
+}
+
+.image img {
+  opacity: 0.1;
+  width: 100%;
+  display: block;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  transition-duration: 5s;
+  transition-delay: 5s;
+}
+
+.text-block p {
+  font-size: 20;
+  padding-top: 30px;
+  color: #fe7f2d;
+}
+
+.image img:hover {
+  opacity: 1;
+}
+
+.text-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20pt;
+}
+
+.mission-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20pt;
+}
+
+.mission-block h1 {
+  font-size: 2.5em;
+}
+
+.mission-block p {
+  margin-top: 10%;
+}
+
+.header img {
+  max-width: 100%;
+  height: fit-content;
+  display: block;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  object-fit: cover;
+}
+
+.column {
+  float: left;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 20%;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 1%;
+  padding-right: 1%;
+  outline: 2px solid #233d4d;
+  text-align: center;
+  color: #233d4d;
+}
+.aboutcolumn {
+  display: flex;
+  align-items: center;
+  float: left;
+  margin: 5% 10%;
+  width: 30%;
+  height: 30%;
+  padding-left: 1%;
+  padding-right: 1%;
+  outline: 3px solid #ffffff;
+  text-align: center;
+  color: #ffffff;
+}
+
+#aboutheading {
+  color: #ffffff;
+  background-color: #233d4d;
+  margin: 0;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.aboutblock {
+  border: #fe7f2d 3px;
+  max-height: 250px;
+}
+
+.howToBlock {
+  border: #fe7f2d 3px;
+}
+
+.howtoheading {
+  color: #233d4d;
+  background-color: #ffffff;
+  margin: 0;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.howtorow {
+  background-color: #ffffff;
+  height: fit-content;
+}
+
+.howtocontent {
+  border: #233d4d 2px solid;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.student span {
+  color: #fe7f2d;
+  align-items: center;
+}
+
+.student p {
+  margin: auto;
+}
+
+.darkrow {
+  background-color: #233d4d;
+  height: 40%;
+}
+
+.content::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.decoORANGE {
+  color: #fe7f2d;
+}
+
+.blueBox {
+  background-color: #233d4d;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+h2.whiteBorder {
+  color: white;
+  outline: 3px solid white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.statButton {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 35%;
+  margin-left: 35%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  text-align: center;
+  background-color: #233d4d;
+}
+
+.button {
+  background-color: #fe7f2d;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 4%;
+  text-decoration: none;
+  border: 1px solid #fe7f2d;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  border: 1px solid #fe7f2d;
+  color: #fe7f2d;
+  cursor: pointer;
+}
+
+div.sFilter {
+  background-color: #233d4d;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.sFilter h2 {
+  text-align: center;
+  font-size: 30pt;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+div.filters {
+  float: left;
+  width: 15%;
+  top: 0;
+  position: sticky;
+  overflow: hidden;
+  margin-left: 30px;
+  margin-bottom: 303px;
+  background-color: white;
+  color: white;
+  margin-top: 30px;
+}
+
+.statHeader {
+  float: left;
+  background-color: #fe7f2d;
+  width: 70%;
+  margin-left: 60px;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.statHeader h2 {
+  text-align: center;
+}
+
+.nextFilter {
+  overflow: hidden;
+  background-color: #fe7f2d;
+  text-decoration: none;
+  color: white;
+  border: 1px solid #fe7f2d;
+  font-size: medium;
+  width: 100%;
+  margin-top: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  transition-duration: 0.4s;
+}
+
+.nextFilter:hover {
+  background-color: white;
+  border: 1px solid #fe7f2d;
+  color: #fe7f2d;
+  cursor: pointer;
+}
+
+.submitButton {
+  overflow: hidden;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 16pt;
+  border: 1px solid #fe7f2d;
+  background-color: #fe7f2d;
+  color: white;
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  transition-duration: 0.4s;
+}
+
+.submitButton:hover {
+  background-color: white;
+  color: #fe7f2d;
+  border: 1px solid #fe7f2d;
+  cursor: pointer;
+}
+
+.statTable table {
+  page-break-inside: auto;
+  float: left;
+  margin-left: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  margin-bottom: 50px;
+}
+
+.statTable td, th {
+  border: 1px solid #233d4d;
+  color: #233d4d;
+  text-align: left;
+  padding: 8px;
+}
+
+.statTable tr:nth-child(even) {
+  background-color: rgb(230, 230, 230);
+  page-break-inside: avoid;
+  page-break-after: auto;
+  color: #233d4d;
+}
+
+label {
+  margin-left: 15px;
+  font-size: 16pt;
+}
+
+select,
+.dropdown {
+  appearance: none;
+  width: 90%;
+  border-radius: 5px;
+  font-family: inherit;
+  border: 1px solid #fe7f2d;
+  background-color: #233d4d;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  transition-duration: 1s;
+  background-image: linear-gradient(45deg, transparent 50%, #fe7f2d 50%),
+    linear-gradient(135deg, #fe7f2d 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1px 1.5em;
+  background-repeat: no-repeat;
+}
+
+select:hover {
+  font-size: 1rem;
+}
+
+.dropdown:hover {
+  font-size: 1rem;
+}
+
+/* Style the footer */
+.footer {
+  position: absolute;
+  width: 100%;
+  max-height: 75px;
+  background-color: #233d4d;
+  padding: 10px;
+  color: white;
+}
+
+.aboutfooter {
+  position: absolute;
+  width: 100%;
+  max-height: 75px;
+  background-color: #233d4d;
+  padding: 10px;
+  color: white;
+  margin-top: 11%;
+}
+
+.logo {
+  width: 120px;
+  position: relative;
+  top: -15px;
+  float: right;
+}
+
+.checkboxFilter {
+  margin-left: 30px;
+}
+
+#lgaInfo {
+  color: #233d4d;
+  padding-left: 20px;
+  border: #233d4d 3px solid;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  max-width: 80%;
+  height: 80%;
+  background-color: white;
+  margin: auto;
+}
+.card img {
+  margin-top: 10px;
+  max-width: 80%;
+  height: 15%;
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+.personas {
+  height: 88%;
+  background-color:#fe7f2d;
+}
+
+.personaColumn {
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+#personaheading {
+  color: #ffffff;
+  background-color:#fe7f2d;
+  margin: 0;
+  text-align: center;
+  padding-top: 1em;
+}
