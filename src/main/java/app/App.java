@@ -38,19 +38,19 @@ public class App {
     public static void configureRoutes(Javalin app) {
         // All webpages are listed here as GET pages
         app.get(PageIndex.URL, new PageIndex());
-        app.get(PageMission.URL, new PageMission());
-        app.get(PageST21.URL, new PageST21());
-        app.get(PageST22.URL, new PageST22());
-        app.get(PageST31.URL, new PageST31());
-        app.get(PageST32.URL, new PageST32());
+        // app.get(PageMission.URL, new PageMission());
+        // app.get(PageST21.URL, new PageST21());
+        // app.get(PageST22.URL, new PageST22());
+        // app.get(PageST31.URL, new PageST31());
+        // app.get(PageST32.URL, new PageST32());
 
         // Add / uncomment POST commands for any pages that need web form POSTS
         // app.post(PageIndex.URL, new PageIndex());
         // app.post(PageMission.URL, new PageMission());
-        app.post(PageST21.URL, new PageST21());
-        app.post(PageST22.URL, new PageST22());
-        app.post(PageST31.URL, new PageST31());
-        app.post(PageST32.URL, new PageST32());
+        // app.post(PageST21.URL, new PageST21());
+        // app.post(PageST22.URL, new PageST22());
+        // app.post(PageST31.URL, new PageST31());
+        // app.post(PageST32.URL, new PageST32());
     }
 
 }
